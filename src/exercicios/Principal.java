@@ -16,7 +16,9 @@ public class Principal {
 
             Numero numero = new Numero();
             numero.valor =4;
-            System.out.print(numero.parInpar());
+            System.out.print(numero.parImpar());
+
+            System.out.print(numero.maiorValor(6,8));
     }
     
 }
