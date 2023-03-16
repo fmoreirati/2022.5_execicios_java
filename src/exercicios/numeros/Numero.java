@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.numeros;
 
 public class Numero {
     int valor;
@@ -19,7 +19,8 @@ public class Numero {
         }
     }
 
-    // 7) Escreva um programa para ler 2 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+    // 7) Escreva um programa para ler 2 valores (considere que não serão informados
+    // valores iguais) e escrever o maior deles.
     public int maiorValor(int valor1, int valor2) {
         if (valor1 > valor2) {
             return valor1;
@@ -27,7 +28,8 @@ public class Numero {
         return valor2;
     }
 
-    // 10) Escreva um programa para ler 3 valores inteiros (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
+    // 10) Escreva um programa para ler 3 valores inteiros (considere que não serão
+    // lidos valores iguais) e escrevê-los em ordem crescente.
     public String ordenarCrescente(int valor1, int valor2, int valor3) {
         // if(valor1 < valor2 && valor2 < valor3){
         // return valor1 + " - " + valor2 + " - " + valor3;
