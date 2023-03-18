@@ -5,13 +5,16 @@ import javax.swing.JOptionPane;
 public class Principal {
     public static void main(String[] args) {
         Bola bolinha = new Bola();
-        bolinha.trocaCor("vermelho");
-        bolinha.circunferencia = 10.5;
-        bolinha.material = "metal";
+
+        bolinha.trocarCor(JOptionPane.showInputDialog("Qual a cor?"));
+
+        bolinha.trocarCircunferencia(Double.parseDouble(JOptionPane.showInputDialog("Qual a circunferência?")));
+
+        bolinha.trocarMaterial(JOptionPane.showInputDialog("Qual a material?"));
 
         JOptionPane.showMessageDialog(null, ""
                 + "Cor: " + bolinha.mostrarCor() + "\n"
-                + "Circunferência: " + bolinha.circunferencia + "\n"
-                + "Material: " + bolinha.material + "\n");
+                + "Circunferência: " + bolinha.mostrarCircunferencia() + "\n"
+                + "Material: " + bolinha.mostrarMaterial() + "\n");
     }
 }
