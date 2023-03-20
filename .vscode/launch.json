@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Inicio",
+            "request": "launch",
+            "mainClass": "exercicios.quadrado.Inicio",
+            "projectName": "exercicios_dad6eff3"
+        },
+        {
+            "type": "java",
             "name": "Principal",
             "request": "launch",
             "mainClass": "exercicios.numeros.Principal",

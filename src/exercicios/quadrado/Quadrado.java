@@ -1,5 +1,7 @@
 package exercicios.quadrado;
 
+import java.io.ObjectStreamClass;
+
 public class Quadrado {
     /*
      * Classe Quadrado: Crie uma classe que modele um quadrado:
