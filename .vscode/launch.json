@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Inicio",
             "request": "launch",
+            "mainClass": "exercicios.conta.Inicio",
+            "projectName": "exercicios_dad6eff3"
+        },
+        {
+            "type": "java",
+            "name": "Inicio",
+            "request": "launch",
+            "mainClass": "exercicios.pessoa.Inicio",
+            "projectName": "exercicios_dad6eff3"
+        },
+        {
+            "type": "java",
+            "name": "Inicio",
+            "request": "launch",
             "mainClass": "exercicios.quadrado.Inicio",
             "projectName": "exercicios_dad6eff3"
         },
